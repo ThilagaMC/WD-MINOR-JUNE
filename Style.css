@@ -17,13 +17,22 @@
     font-weight: 550px;
     color:rgb(215, 225, 235);
     font-weight: bolder;
-    font-size: 55px;
-    animation: moveright 1s linear 1;
+    font-size: 55px; 
+
+}
+.ani1{
+    animation: movedown 2s;
     animation-delay: 3s;
     visibility: hidden;
     animation-fill-mode: forwards;
 }
-   @keyframes moveright {
+.ani2{
+    animation: moveright 1s;
+    animation-delay: 2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes moveright {
     0%{
         transform: translateX(-100px);
         visibility: visible;
@@ -227,37 +236,3 @@ footer{
         visibility: visible;
     }
 }
-
-.Apple{
-    margin-left:3%;
-    animation: moveleft 1s linear 1;
-    animation-delay: 4s;
-    visibility: hidden;
-    animation-fill-mode: forwards;
-}
-@keyframes moveleft {
-    0%{
-        transform: translateZ(-100px);
-        visibility: visible;
-    }
-    100%{
-        transform: translateZ(0px);
-        visibility: visible;
-    }
-
-}
-.Gra{
-    animation: moveright 1s linear 1;
-    animation-delay: 4s;
-    visibility: hidden;
-    animation-fill-mode: forwards; 
-}
-@keyframes moveleft {
-    0%{
-        transform: translate3D(-100px);
-        visibility: visible;
-    }
-    100%{
-        transform: translate3D(0px);
-        visibility: visible;
-    }
