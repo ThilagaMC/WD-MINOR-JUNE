@@ -109,11 +109,7 @@
 }
 
 .bottom{
-    flex-direction:column;
-    display: flex;
-    grid-gap: 70px;
     background-image: url("pinkble.JPG");
-    
     background-position: center;
     color: white;
 }
