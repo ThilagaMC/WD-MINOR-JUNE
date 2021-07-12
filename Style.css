@@ -1,7 +1,7 @@
 
 .main{
     height: 60%;
-    width: 100%;
+    width:auto;
     background-image: url("p.jpg");
     background-position: center;
     background-size: cover;
@@ -169,13 +169,13 @@ footer{
  .bottom-grid {
     display: grid;
     grid-column-gap: 50px;
-    grid-template-columns: 22.3% 22.3% 22.3% 22.2%;
+    grid-template-columns: 20% 20% 20% 20%;
     padding: 10px;
   }
   .bottom-grid2 {
     display: grid;
     grid-column-gap: 50px;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 35% 25% 25%;
     padding: 10px;
   }
   .Last{
