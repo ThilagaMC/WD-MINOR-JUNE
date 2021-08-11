@@ -113,52 +113,12 @@
     background-position: center;
     color: white;
 }
-.bottom > div{
-    text-align: center;
-    margin-top: 30px;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
-    max-width: 1170px;
-    background-color: red;
-    margin: auto;
-    color: white;
-}
+
 ul{
     list-style: none;
     color: white;
 }
-.row{
-    display:flex;
-    flex-direction: row;
-}
-footer{
-    flex-direction:column;
-    display: flex;
-    grid-gap: 70px;
-    background-color:rgb(139, 59, 52) ;
-    margin:1px;
-    padding: 22px;
-    box-shadow: 2px 2px black;
 
-}
-.fotter-col{
-    width: 25%;
-    padding: 0 15px;
-    color: white;
-
-}
-.fotter-col h4{
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    color: white;
-
-}
 .grid-container {
     display: grid;
     grid-column-gap: 50px;
@@ -178,15 +138,7 @@ footer{
     grid-template-columns: 35% 25% 25%;
     padding: 10px;
   }
-  .Last{
-    flex-direction:column;
-    display: flex;
-    grid-gap: 70px;
-    
- }
- .Last >div{                      
-  color:white;
-} 
+
 
 .mam {height: 40%; width: 40%; }
 .EVENT-2{height: 40%;width: 40%;} 
